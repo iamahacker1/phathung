@@ -1,0 +1,21 @@
+.form-group{
+    margin: 10px 2px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    color: yellow;
+    display: block;
+    outline: none;
+    font-size: x-large;
+}
+.form-control{
+    box-shadow: 0 0 1px snow;
+    color: black;
+}
+body{
+    width: 500px;
+    margin: 0px auto;
+}
+form{
+    margin: 0 auto;
+}

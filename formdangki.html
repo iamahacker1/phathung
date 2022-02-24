@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formdangki.css">
+</head>
+<body>
+    <div class="container">
+        <form name="dangnhap">
+            <div class="form-group">
+                <label class="font-chu">Họ và tên</label> 
+                <input type="text" name="Hovaten" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Giới tính:
+                    <input type="radio" name="gioitinh" value="Nam" checked>Nam
+                    <input type="radio" name="gioitinh" value="Nu">Nữ
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Hình ảnh</label>
+                <input type="file"> 
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Quốc tịch:</label>
+                <select class="form-control">
+                    <option selected>Việt Nam</option>
+                    <option selected>Thái Lan</option>
+                    <option selected>Hàn Quốc</option>
+                    <option selected>Trung Quốc</option>
+                    <option selected>CamPuChia</option>
+                    <option selected>Nhật Bản</option>
+                    <option selected>Brazil</option>
+                    <option selected>Mỹ</option>
+                    <option selected>Lào</option>
+                    <option selected>Malaysia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Sở thích:</label> 
+                <br>
+                    <input type="checkbox" name="sothich" value="Thể thao">Thể Thao
+                    <input type="checkbox" name="sothich" value="Du lịch" checkbox>Du Lịch
+                    <input type="checkbox" name="sothich" value="Âm nhạc">Âm Nhạc
+                    <input type="checkbox" name="sothich" value="Ẩm thực">Ẩm Thực
+                </label>
+             
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Ghi Chú:</label> <br>
+                <textarea rows="3" class="form-control"></textarea>
+            </div>
+            <hr align="left" width="180px">
+            <input type="submit" value="Đăng Kí" class="form-button">
+            <input type="reset" value="Nhập Lại" class="form-button">
+        </form>
+    </div>
+</body>
+</html>
